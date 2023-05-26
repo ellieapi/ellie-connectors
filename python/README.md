@@ -34,13 +34,13 @@ If you are using pip for installation, the dependencies will be automatically in
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the `ellie` module from Github:
 
 ```bash
-pip install 'git+https://github.com/jahva/ellietest#subdirectory=python"
+pip install "git+https://github.com/ellieapi/ellie-connectors#subdirectory=python"
 ```
 
 If you are using Jupyter notebooks or JupyterHub, you should run: 
 
 ```bash
-!pip install "git+https://github.com/jahva/ellietest#subdirectory=python"
+!pip install "git+https://github.com/ellieapi/ellie-connectors#subdirectory=python"
 ```
 
 ## Usage
