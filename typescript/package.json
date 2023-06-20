@@ -1,0 +1,45 @@
+{
+  "name": "ellie",
+  "version": "1.1.0",
+  "description": "Ellie database connectors",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "typedoc": "typedoc --tsconfig tsconfig.json ./src --out docs/code",
+    "clean": "tsc --build --clean && rm -rf docs/code && rm -rf dist"
+  },
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahva/ellietest.git#subdirectory=typescript"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "Ellie Technologies",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "pg": "^8.11.0",
+    "snowflake-sdk": "^1.6.21"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.10.1",
+    "@types/snowflake-sdk": "^1.6.12",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "eslint": "^8.35.0",
+    "prettier": "2.8.4",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.23.26",
+    "typescript": "^4.9.5"
+  }
+}

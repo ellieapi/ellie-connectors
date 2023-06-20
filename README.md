@@ -6,7 +6,7 @@
 
 Examples for seamlessly connecting to Ellie.ai for extracting your custom metadata.
 
-[🚀 Getting Started](python/) | [📖 API Documentation](https://ellie.atlassian.net/wiki/spaces/ELLIE/pages/783745025/API) | [☎️ Join our community](https://www.ellie.ai/slack-community) | [💎 Ellie.ai](https://ellie.ai)
+[🚀 Getting Started: Python](python/) | [🎉 Getting Started: TypeScript](typescript/) | [📖 API Documentation](https://ellie.atlassian.net/wiki/spaces/ELLIE/pages/783745025/API) | [☎️ Join our community](https://www.ellie.ai/slack-community) | [💎 Ellie.ai](https://ellie.ai)
 
 ![GitHub](https://img.shields.io/github/license/Kjue/eslint-formatter-bitbucket-reports?color=blue)
 
@@ -15,12 +15,12 @@ Examples for seamlessly connecting to Ellie.ai for extracting your custom metada
 ---
 
 ## Key Features
-* Import logical models into Ellie via the Python connector.
-* Export model metadata with the Python connector.
+* Import logical models into Ellie via the Python & TypeScript connector.
+* Export model metadata with the Python & TypeScript connector.
 * Export PostgreSQL table schemas in JSON format.
 * Export Snowflake table schemas in JSON format.
 
-At present, we provide [examples written in Python](python/), including dedicated connectors for popular database systems like Snowflake and PostgreSQL. We are constantly expanding our examples to cover more programming languages and databases.
+At present, we provide [examples written in Python](python/) and [examples written in TypeScript](typescript/). These examples include dedicated connectors for popular database systems like Snowflake and PostgreSQL. We are constantly expanding our examples to cover more programming languages and databases.
 
 ## API Documentation
 For a more in-depth understanding of how the Ellie API works, check out 
